@@ -1,3 +1,4 @@
+/*RESET WEBPAGE TO DEFAULT CSS*/
 *,
 *::before, ::after {
     padding: 0%;
@@ -6,5 +7,48 @@
 }
 
 body {
+    font-size: 80%;
     box-sizing: border-box;
+    background-color: rgb(221, 221, 221);
 }
+
+/*HEADER CSS*/
+#header {
+    display: inline-block;
+    width: 100%;
+}
+
+.header-container {
+    width: 30%;
+    float: right;
+    position: relative;
+}
+
+.header-button {
+    position: absolute;
+    top: 1.4rem;
+    left: 15rem;
+}
+
+.header-text {
+    position: absolute;
+    top: 1.5rem;
+}
+
+div#header-text-id .user-password {
+    font-size: .8rem;
+    color: rgb(44, 44, 216);
+}
+
+.btn-sign-in {
+    border: 1px solid rgb(172, 172, 172);
+    background-color: rgb(62, 62, 235);
+    border-radius: 8%;
+    color: white;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
