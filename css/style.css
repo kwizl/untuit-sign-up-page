@@ -97,9 +97,15 @@ div#header-text-id .user-password {
     background-color: rgb(62, 62, 235);
     border-radius: 0.3rem;
     color: white;
-    padding-top: .4rem;
-    padding-bottom: .4rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     padding-right: 4rem;
     padding-left: 4rem;
+}
+
+.form-container {
+    width: 30%;
+    background-color: white;
+    border: none;
 }
 
