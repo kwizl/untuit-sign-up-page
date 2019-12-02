@@ -51,4 +51,14 @@ div#header-text-id .user-password {
     padding-left: 1rem;
 }
 
+/*MAIN CSS*/
+.img-container {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.intuit-icon {
+    height: 16vh;
+}
+
 
