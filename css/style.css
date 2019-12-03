@@ -14,7 +14,6 @@ body {
 
 /*HEADER CSS*/
 #header {
-    display: inline-block;
     width: 100%;
 }
 
@@ -26,14 +25,16 @@ body {
 
 .header-button {
     position: absolute;
-    top: 1.4rem;
+    top: 1.5rem;
     left: 15rem;
+    display: inline-block;
 }
 
 .header-text {
-    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     position: absolute;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     top: 1.5rem;
+    display: inline-block;
 }
 
 div#header-text-id .user-password {
