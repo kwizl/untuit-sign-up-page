@@ -7,224 +7,224 @@
 }
 
 body {
-        font-size: 80%;
-    box-sizing: border-box;
-    background-color: rgb(221, 221, 221);
+  font-size: 80%;
+  box-sizing: border-box;
+  background-color: rgb(221, 221, 221);
 }
 
 /* HEADER CSS */
 
 #header {
-    width: 100%;
+  width: 100%;
 }
 
 .header-container {
-    width: 30%;
-    float: right;
-    position: relative;
+  width: 30%;
+  float: right;
+  position: relative;
 }
 
 .header-button {
-    position: absolute;
-    top: 1.5rem;
-    left: 15rem;
-    display: inline-block;
+  position: absolute;
+  top: 1.5rem;
+  left: 15rem;
+  display: inline-block;
 }
 
 .header-text {
-    position: absolute;
-    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    top: 1.5rem;
-    display: inline-block;
+  position: absolute;
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  top: 1.5rem;
+  display: inline-block;
 }
 
 div#header-text-id .user-password {
-    font-size: .8rem;
-    color: rgb(44, 44, 216);
+  font-size: .8rem;
+  color: rgb(44, 44, 216);
 }
 
 .btn-sign-in {
-    border: 1px solid rgb(172, 172, 172);
-    background-color: rgb(62, 62, 235);
-    border-radius: 8%;
-    color: white;
-    padding-top: .4rem;
-    padding-bottom: .4rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+  border: 1px solid rgb(172, 172, 172);
+  background-color: rgb(62, 62, 235);
+  border-radius: 8%;
+  color: white;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 /* MAIN CSS */
 #main {
-    display: grid;
-    grid-template-rows: 15rem auto;
-    justify-content: center;
+  display: grid;
+  grid-template-rows: 15rem auto;
+  justify-content: center;
 }
 
 .img-container {
-    text-align: center;
-    padding-top: 4rem;
+  text-align: center;
+  padding-top: 4rem;
 }
 
 .intuit-icon {
-    height: 14.5vh;
+  height: 14.5vh;
 }
 
 .firm-icons {
-    margin-top: 1rem;
-    padding-top: .2rem;
+  margin-top: 1rem;
+  padding-top: .2rem;
 }
 
 .i1 {
-    height: 1.5rem;
+  height: 1.5rem;
 }
 
 .i2 {
-    height: 1.5rem;
-    padding-left: 1rem;
+  height: 1.5rem;
+  padding-left: 1rem;
 }
 
 .i3 {
-    height: 1.5rem;
-    padding-left: 1rem;
+  height: 1.5rem;
+  padding-left: 1rem;
 }
 
 .logo-list span {
-    display: inline-block;
-    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    color: gray;
-    align-items: center;
+  display: inline-block;
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: gray;
+  align-items: center;
 }
 
 .logo-list {
-   position: relative;
-   top: -1rem;
+  position: relative;
+  top: -1rem;
 }
 
 /* Form CSS */
 .form-container {
-    margin-top: -2rem;
-    border: 1px solid rgb(204, 204, 204);
-    background-color: #fff;
-    width: auto;
-    height: auto;
+  margin-top: -2rem;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: #fff;
+  width: auto;
+  height: auto;
 }
 
 .form-article {
-    padding: 2.5rem 2.5rem 0 2.5rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
 }
 
 .sign-up-form {
-    padding: 2.5rem;
+  padding: 2.5rem;
 }
 
 .form-heading {
-    font-size: 1.3rem;
-    color: grey;
-    font-weight: 200;
+  font-size: 1.3rem;
+  color: grey;
+  font-weight: 200;
 }
 
 #phone-text {
-    font-size: .7rem;
+  font-size: .7rem;
 }
 
 .form-link, .create-link {
-    text-decoration: none;
-    color: rgb(62, 62, 235);
+  text-decoration: none;
+  color: rgb(62, 62, 235);
 }
 
 fieldset {
-    border: none;
+  border: none;
 }
 
 .form-set label:not(:first-child) {
-    margin-top: 1.4rem;
-    display: block;
+  margin-top: 1.4rem;
+  display: block;
 }
 
 .form-set input {
-    margin-top: .6rem;
-    display: block;
-    width: 24rem;
-    height: 2rem;
+  margin-top: .6rem;
+  display: block;
+  width: 24rem;
+  height: 2rem;
 }
 
 .btn-create {
-    border: 1px solid rgb(172, 172, 172);
-    background-color: rgb(62, 62, 235);
-    border-radius: 0.3rem;
-    color: white;
-    margin-top: 2rem;
-    padding: .5rem .4rem .5rem .4rem;
-    margin-bottom: 1rem;
-    width: 24rem;
+  border: 1px solid rgb(172, 172, 172);
+  background-color: rgb(62, 62, 235);
+  border-radius: 0.3rem;
+  color: white;
+  margin-top: 2rem;
+  padding: .5rem .4rem .5rem .4rem;
+  margin-bottom: 1rem;
+  width: 24rem;
 }
 
 .terms-and-conditions {
-    text-align: center;
-    font-style: italic;
-    font-weight: 200;
-    color: grey;
-    font-size: .75rem;
-    line-height: 3vh;
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  color: grey;
+  font-size: .75rem;
+  line-height: 3vh;
 }
 
 .form-set-footer {
-    background-color: rgb(221, 221, 221);
-    border-bottom: 1px solid rgb(204, 204, 204);
+  background-color: rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(204, 204, 204);
 }
 
 .form-footer-content {
-    text-align: center;
-    font-weight: 200;
-    color: grey;
-    font-size: .65rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  text-align: center;
+  font-weight: 200;
+  color: grey;
+  font-size: .65rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .terms-link {
-    color: rgb(62, 62, 235);
-    text-decoration: none;
+  color: rgb(62, 62, 235);
+  text-decoration: none;
 }
 
 .terms-link:hover {
-    color: rgb(62, 62, 235);
-    text-decoration: underline;
+  color: rgb(62, 62, 235);
+  text-decoration: underline;
 }
 
 .form-set-link {
-    color: rgb(62, 62, 235);
-    text-decoration: none;
+  color: rgb(62, 62, 235);
+  text-decoration: none;
 }
 
 .form-set-link:hover {
-    color: rgb(62, 62, 235);
-    text-decoration: underline;
+  color: rgb(62, 62, 235);
+  text-decoration: underline;
 }
 
 /* FOOTER CSS */
 
 #footer {
-    text-align: center;
-    padding-bottom: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .footer-paragraph {
-    font-weight: 200;
-    color: grey;
-    line-height: 1.3rem;
-    padding-top: 2rem;
-    padding-bottom: .5rem;
+  font-weight: 200;
+  color: grey;
+  line-height: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
 }
 
 .footer-link {
-    font-weight: 200;
-    color: grey;
-    text-decoration: none;
+  font-weight: 200;
+  color: grey;
+  text-decoration: none;
 }
 
 .footer-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
