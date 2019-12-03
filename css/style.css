@@ -54,13 +54,19 @@ div#header-text-id .user-password {
 }
 
 /*MAIN CSS*/
+.main {
+    display: grid;
+    grid-template-rows: 15rem 15rem;
+    justify-content: center;
+}
+
 .img-container {
     text-align: center;
     padding-top: 4rem;
 }
 
 .intuit-icon {
-    height: 16vh;
+    height: 14.5vh;
 }
 
 .i1 {
@@ -93,20 +99,54 @@ div#header-text-id .user-password {
    top: -1rem;
 }
 
+/*Form CSS*/
+.form-container {
+    margin-top: -2rem;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: #fff;
+    height: 68vh;
+}
+
+.sign-up-form {
+    padding: 2.5rem;
+}
+
+.form-heading {
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: 200;
+
+}
+
+.form-link {
+    text-decoration: none;
+    color:  rgb(62, 62, 235);
+}
+
+.form-set label {
+    margin-top: 1.4rem;
+    display: block;
+}
+
+.form-set input {
+    margin-top: .6rem;
+    display: block;
+    width: 22rem;
+}
+
 .btn-create {
     border: 1px solid rgb(172, 172, 172);
     background-color: rgb(62, 62, 235);
     border-radius: 0.3rem;
     color: white;
+    margin-top: 2rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-right: 4rem;
     padding-left: 4rem;
+    width: 22rem;
 }
 
-.form-container {
-    width: 30%;
-    background-color: white;
+fieldset {
     border: none;
 }
-

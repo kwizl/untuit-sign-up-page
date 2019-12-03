@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </header>
-            <main>
+            <main class="main">
                 <div class="img-container">
                     <img src="img/intuit-icon.png" alt="Intuit icon" class="intuit-icon">
                     <nav class="firm-nav">
@@ -45,15 +45,21 @@
                     </nav>
                 </div>
                 <div class="form-container">
-                    <form action="">
+                    <form class="sign-up-form" action="">
                         <fieldset class="form-set">
-                            <label for="">Email address</label>
-                            <input type="text">
+                            <article class="form-article">
+                                <h2 class="form-heading">
+                                    Create an Intuit account
+                                </h2>
+                                <br>One account for everything Intuit. <a href="#" class="form-link">Learn more</a>
+                            </article>
+                            <label for="email">Email address</label>
+                            <input type="email" name="email">
                             <label for="">Phone (recommended)</label>
                             <input type="text">
                             <p>Standard call, messaging or data rates may apply.</p>
                             <label for="">Password</label>
-                            <input type="text">
+                            <input type="password">
                         </fieldset>
                         <fieldset>
                             <button class="btn-create"><i class="fa fa-lock" aria-hidden="true"></i>
