@@ -57,7 +57,7 @@ div#header-text-id .user-password {
 /*MAIN CSS*/
 #main {
     display: grid;
-    grid-template-rows: 15rem 38rem;
+    grid-template-rows: 15rem auto;
     justify-content: center;
 }
 
@@ -70,20 +70,23 @@ div#header-text-id .user-password {
     height: 14.5vh;
 }
 
+.firm-icons {
+    margin-top: 1rem;
+    padding-top: .2rem;
+}
+
 .i1 {
     height: 1.5rem;
-    padding-right: 0.4rem;
-    
 }
 
 .i2 {
-    height: 2.2rem;
+    height: 1.5rem;
+    padding-left: 1rem;
 }
 
 .i3 {
-    height: 1.8rem;
-    padding-right: 0.4rem;
-
+    height: 1.5rem;
+    padding-left: 1rem;
 }
 
 .logo-list li {
@@ -105,8 +108,8 @@ div#header-text-id .user-password {
     margin-top: -2rem;
     border: 1px solid rgb(204, 204, 204);
     background-color: #fff;
-    width: 60vh;
-    height: 91vh;
+    width: auto;
+    height: auto;
 }
 
 .form-article {
@@ -145,6 +148,7 @@ fieldset {
     margin-top: .6rem;
     display: block;
     width: 19rem;
+    height: 2rem;
 }
 
 .btn-create {
@@ -212,6 +216,7 @@ fieldset {
     font-weight: 200;
     color: grey;
     line-height: 1.3rem;
+    padding-top: 2rem;
     padding-bottom: .5rem;
 }
 
