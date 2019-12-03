@@ -1,6 +1,7 @@
 /* RESET WEBPAGE TO DEFAULT CSS */
 *,
-*::before, *::after {
+*::before, 
+*::after {
   padding: 0%;
   margin: 0%;
   box-sizing: inherit;
@@ -33,7 +34,7 @@ body {
 
 .header-text {
   position: absolute;
-  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   top: 1.5rem;
   display: inline-block;
 }
@@ -91,7 +92,7 @@ div#header-text-id .user-password {
 
 .logo-list span {
   display: inline-block;
-  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: gray;
   align-items: center;
@@ -129,7 +130,8 @@ div#header-text-id .user-password {
   font-size: 0.7rem;
 }
 
-.form-link, .create-link {
+.form-link, 
+.create-link {
   text-decoration: none;
   color: rgb(62, 62, 235);
 }
