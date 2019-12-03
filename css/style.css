@@ -1,6 +1,6 @@
 /* RESET WEBPAGE TO DEFAULT CSS */
 *,
-*::before, 
+*::before,
 *::after {
   padding: 0%;
   margin: 0%;
@@ -130,7 +130,7 @@ div#header-text-id .user-password {
   font-size: 0.7rem;
 }
 
-.form-link, 
+.form-link,
 .create-link {
   text-decoration: none;
   color: rgb(62, 62, 235);
