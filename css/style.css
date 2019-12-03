@@ -39,7 +39,7 @@ body {
 }
 
 div#header-text-id .user-password {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: rgb(44, 44, 216);
 }
 
@@ -48,8 +48,8 @@ div#header-text-id .user-password {
   background-color: rgb(62, 62, 235);
   border-radius: 8%;
   color: white;
-  padding-top: .4rem;
-  padding-bottom: .4rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
   padding-right: 1rem;
   padding-left: 1rem;
 }
@@ -72,7 +72,7 @@ div#header-text-id .user-password {
 
 .firm-icons {
   margin-top: 1rem;
-  padding-top: .2rem;
+  padding-top: 0.2rem;
 }
 
 .i1 {
@@ -126,7 +126,7 @@ div#header-text-id .user-password {
 }
 
 #phone-text {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .form-link, .create-link {
@@ -144,7 +144,7 @@ fieldset {
 }
 
 .form-set input {
-  margin-top: .6rem;
+  margin-top: 0.6rem;
   display: block;
   width: 24rem;
   height: 2rem;
@@ -156,7 +156,7 @@ fieldset {
   border-radius: 0.3rem;
   color: white;
   margin-top: 2rem;
-  padding: .5rem .4rem .5rem .4rem;
+  padding: 0.5rem 0.4rem 0.5rem 0.4rem;
   margin-bottom: 1rem;
   width: 24rem;
 }
@@ -166,7 +166,7 @@ fieldset {
   font-style: italic;
   font-weight: 200;
   color: grey;
-  font-size: .75rem;
+  font-size: 0.75rem;
   line-height: 3vh;
 }
 
@@ -179,7 +179,7 @@ fieldset {
   text-align: center;
   font-weight: 200;
   color: grey;
-  font-size: .65rem;
+  font-size: 0.65rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -216,7 +216,7 @@ fieldset {
   color: grey;
   line-height: 1.3rem;
   padding-top: 2rem;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer-link {
