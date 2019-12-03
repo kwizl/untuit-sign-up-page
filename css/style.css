@@ -109,6 +109,10 @@ div#header-text-id .user-password {
     height: 91vh;
 }
 
+.form-article {
+    padding: 2.5rem 2.5rem 0 2.5rem;
+}
+
 .sign-up-form {
     padding: 2.5rem;
 }
@@ -117,7 +121,10 @@ div#header-text-id .user-password {
     font-size: 1.3rem;
     color: grey;
     font-weight: 200;
+}
 
+#phone-text {
+    font-size: .7rem;
 }
 
 .form-link, .create-link {
@@ -129,7 +136,7 @@ fieldset {
     border: none;
 }
 
-.form-set label {
+.form-set label:not(:first-child) {
     margin-top: 1.4rem;
     display: block;
 }
