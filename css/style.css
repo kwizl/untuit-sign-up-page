@@ -13,6 +13,7 @@ body {
 }
 
 /*HEADER CSS*/
+
 #header {
     width: 100%;
 }
@@ -54,9 +55,9 @@ div#header-text-id .user-password {
 }
 
 /*MAIN CSS*/
-.main {
+#main {
     display: grid;
-    grid-template-rows: 15rem 15rem;
+    grid-template-rows: 15rem 38rem;
     justify-content: center;
 }
 
@@ -124,6 +125,10 @@ div#header-text-id .user-password {
     color:  rgb(62, 62, 235);
 }
 
+fieldset {
+    border: none;
+}
+
 .form-set label {
     margin-top: 1.4rem;
     display: block;
@@ -155,7 +160,7 @@ div#header-text-id .user-password {
     line-height: 3vh;
 }
 
-.formset-footer {
+.form-set-footer {
     background-color: rgb(221, 221, 221);
     border-bottom: 1px solid rgb(204, 204, 204);
 }
@@ -169,6 +174,47 @@ div#header-text-id .user-password {
     padding-bottom: 1rem;
 }
 
-fieldset {
-    border: none;
+.terms-link {
+    color:  rgb(62, 62, 235);
+    text-decoration: none;
+}
+
+.terms-link:hover {
+    color:  rgb(62, 62, 235);
+    text-decoration: underline;
+}
+
+.form-set-link {
+    color:  rgb(62, 62, 235);
+    text-decoration: none;
+}
+
+.form-set-link:hover {
+    color:  rgb(62, 62, 235);
+    text-decoration: underline;
+}
+
+/*FOOTER CSS*/
+
+#footer {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.footer-paragraph {
+    font-weight: 200;
+    color: grey;
+    line-height: 1.3rem;
+    padding-bottom: .5rem;
+}
+
+.footer-link {
+    font-weight: 200;
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color:  rgb(62, 62, 235);;
+    text-decoration: underline;
 }
