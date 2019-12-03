@@ -104,7 +104,8 @@ div#header-text-id .user-password {
     margin-top: -2rem;
     border: 1px solid rgb(204, 204, 204);
     background-color: #fff;
-    height: 68vh;
+    width: 60vh;
+    height: 91vh;
 }
 
 .sign-up-form {
@@ -112,13 +113,13 @@ div#header-text-id .user-password {
 }
 
 .form-heading {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: grey;
     font-weight: 200;
 
 }
 
-.form-link {
+.form-link, .create-link {
     text-decoration: none;
     color:  rgb(62, 62, 235);
 }
@@ -131,7 +132,7 @@ div#header-text-id .user-password {
 .form-set input {
     margin-top: .6rem;
     display: block;
-    width: 22rem;
+    width: 19rem;
 }
 
 .btn-create {
@@ -140,11 +141,32 @@ div#header-text-id .user-password {
     border-radius: 0.3rem;
     color: white;
     margin-top: 2rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    padding-right: 4rem;
-    padding-left: 4rem;
-    width: 22rem;
+    padding: .5rem .4rem .5rem .4rem;
+    margin-bottom: 1rem;
+    width: 19rem;
+}
+
+.terms-and-conditions {
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    color: grey;
+    font-size: .75rem;
+    line-height: 3vh;
+}
+
+.formset-footer {
+    background-color: rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.form-footer-content {
+    text-align: center;
+    font-weight: 200;
+    color: grey;
+    font-size: .65rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 fieldset {
