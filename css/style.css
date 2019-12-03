@@ -94,8 +94,7 @@ div#header-text-id .user-password {
     font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     color: gray;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .logo-list {
