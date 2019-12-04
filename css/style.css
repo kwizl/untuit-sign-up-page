@@ -156,7 +156,9 @@ fieldset {
   background-image: url('../img/icons8-padlock-26.png');
   background-repeat: no-repeat;
   background-position: right;
-  padding-left: 5px; 
+  background-origin: content-box;
+  background-size: 1.2rem 1.2rem;
+  padding-right: 5px;
 }
 
 .btn-create {
