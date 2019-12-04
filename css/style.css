@@ -149,16 +149,22 @@ fieldset {
   margin-top: 0.6rem;
   display: block;
   width: 24rem;
-  height: 2rem;
+  height: 2.5rem;
 }
 
-#input-password {
+.input-password {
   background-image: url('../img/icons8-padlock-26.png');
   background-repeat: no-repeat;
   background-position: right;
   background-origin: content-box;
-  background-size: 1.2rem 1.2rem;
+  background-size: 1.3rem 1.3rem;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 3px;
   padding-right: 5px;
+}
+
+.input-password:focus {
+  border: 2.5px solid rgb(74, 144, 217);
 }
 
 .btn-create {
@@ -167,6 +173,7 @@ fieldset {
   border-radius: 0.3rem;
   color: white;
   margin-top: 2rem;
+  height: 2.5rem;
   padding: 0.5rem 0.4rem 0.5rem 0.4rem;
   margin-bottom: 1rem;
   width: 24rem;
