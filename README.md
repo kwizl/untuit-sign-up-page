@@ -1,6 +1,5 @@
 # Intuit-sign-up-page
-A replica of Intuit sign up page
-This project create a sign up/log in page of the Intuit website
+It is a replica of the Intuit signup page.
 
 # Authors
 Martin Njoroge and Francis Mtambo
